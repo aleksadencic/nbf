@@ -56,14 +56,14 @@ export class UserEntitlementsComponent implements OnInit {
         firstName: 'Aleksa',
         lastName: 'Dencic',
         mail: 'aleksa.dencic@fisglobal.com',
-        walletAddress: '',
+        walletAddress: '86dAd94fHtvdTBdptELMuqRhRETMSsdW5M35TAQxUSbf',
         profiles: ['Supervisor'],
       },
       {
         firstName: 'Luka',
         lastName: 'Vukosavljevic',
         mail: 'luka.vukosavljevic@fisglobal.com',
-        walletAddress: '',
+        walletAddress: '69dAd2eg5asdTBdptELMuqRhRETMSsdW5M36sd2d6sgs',
         profiles: ['Supervisor'],
       },
     ];
