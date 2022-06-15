@@ -9,16 +9,7 @@ import { SolWalletsService } from 'angular-sol-wallets';
   styleUrls: ['./login-page.component.css'],
 })
 export class LoginPageComponent implements OnInit {
-  routerLink: any;
-  isForm: boolean;
-  emailFormControl: FormControl;
-  walletAddressFormControl: FormControl;
-
-  constructor(private solWalletS: SolWalletsService) {
-    this.isForm = true;
-    this.walletAddressFormControl = new FormControl('');
-    this.emailFormControl = new FormControl('');
-  }
+  constructor(private solWalletS: SolWalletsService) {}
 
   ngOnInit(): void {}
 
@@ -64,9 +55,5 @@ export class LoginPageComponent implements OnInit {
 
   disconnect() {
     this.solWalletS.disconnect();
-  }
-
-  submit() {
-    this.isForm = false;
   }
 }

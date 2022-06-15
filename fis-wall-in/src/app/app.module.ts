@@ -12,6 +12,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { LoginPageModule } from './login-page/login-page.module';
 import { AgGridModule } from 'ag-grid-angular';
 import { RestApiModule } from './rest-api/rest-api.module';
+import { UserEntitlementsFormModule } from './user-entitlements-form/user-entitlements-form.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -25,6 +26,7 @@ import { RestApiModule } from './rest-api/rest-api.module';
     RouterModule,
     AppRoutingModule,
     UserEntitlementsModule,
+    UserEntitlementsFormModule,
     LoginPageModule,
     AgGridModule,
     RestApiModule,
